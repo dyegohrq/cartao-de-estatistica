@@ -33,6 +33,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
+    
 }
 
 main {
@@ -45,11 +46,27 @@ main {
     transform: translate(-50%, -50%);
     background-color: var(--Dark-desaturated-blue);
     color: white;
+    border-radius: 7px;
 }
 
 /* Conf img */
 
+img, picture {
+    max-width: 100%;
+    display: block;
+    line-height: 0;
+}
+
+.hero-image {
+    background: linear-gradient(320deg, #ff61f3 0, #b86ffb 100%);
+}
+
 img {
     width: 100%;
-    background-color: var(--Dark-desaturated-blue);
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    opacity: .8;
+    border-radius: 7px 7px 0px 0px ;
 }
+
