@@ -140,14 +140,27 @@ img {
         margin-top: 20px;
     }
 }
- @media screen and (min-width: 345px) {
+ @media screen and (min-width: 335px) {
     main {
         width: 89vw;
         height: 99vh;
     }
 
     .conteiner {
-        padding: 27px 6vh 7px 6vh;
+        padding: 4vh 9vw 0vh 9vw;
     }
- }
 
+    .hero-text > h1 {
+        font-size: 7vw;
+        padding-bottom: 4px;
+    }
+
+    .hero-text > p {
+        font-size: 1.1em;
+        margin-top: 2vh;
+    }
+
+    .conteudo {
+        margin-top: 4vh;
+    }
+}
