@@ -140,7 +140,7 @@ img {
         margin-top: 20px;
     }
 }
- @media screen and (min-width: 400px) {
+ @media screen and (min-width: 375px) {
     main {
         width: 345px;
         height: 648px;
