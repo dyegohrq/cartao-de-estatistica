@@ -140,14 +140,14 @@ img {
         margin-top: 20px;
     }
 }
- @media screen and (min-width: 500px) {
+ @media screen and (min-width: 400px) {
     main {
-        width: 317px;
-        height: 627px;
+        width: 345px;
+        height: 648px;
     }
 
     .conteiner {
-        padding: 28px 36px 16px 36px;
+        padding: 25px 50px 7px 50px;
     }
  }
 
