@@ -117,14 +117,14 @@ img {
     font-weight: 300;
 }
 
-@media screen and (min-width: 370px) {
+@media screen and (min-width: 330px) {
     main {
         width: 292px;
         height: 611px;
     }
 
     .conteiner {
-        padding: 22px;
+        padding: 24px 35px 15px 35px;
     }
 
     .hero-text > h1 {
