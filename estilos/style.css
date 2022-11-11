@@ -140,27 +140,21 @@ img {
         margin-top: 20px;
     }
 }
- @media screen and (min-width: 335px) {
-    main {
-        width: 89vw;
-        height: 99vh;
-    }
+ @media screen and (min-width: 370px) {
+   main {
+    width: 322px;
+    height: 654px;
+   }
 
-    .conteiner {
-        padding: 4vh 9vw 0vh 9vw;
-    }
+   .conteiner {
+    padding: 24px 40px 15px 40px;
+   }
 
-    .hero-text > h1 {
-        font-size: 7vw;
-        padding-bottom: 4px;
-    }
+   .hero-text {
+    margin-top: 10px;
+   }
 
-    .hero-text > p {
-        font-size: 4vw;
-        margin-top: 2vh;
-    }
-
-    .conteudo {
-        margin-top: 4vh;
-    }
+   .conteudo {
+    margin-top: 27px;
+   }
 }
