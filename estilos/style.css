@@ -117,7 +117,7 @@ img {
     font-weight: 300;
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 340px){
     main {
         width: 283px;
         height: 599px;
@@ -140,14 +140,14 @@ img {
         margin-top: 20px;
     }
 }
- @media screen and (min-width: 365px) {
+ @media screen and (min-width: 350px) {
    main {
-    width: 322px;
-    height: 654px;
+    width: 308px;
+    height: 626px;
    }
 
    .conteiner {
-        padding: 33px 40px 0px 40px;
+        padding: 16px 40px 0px 40px;
 
     }
 
