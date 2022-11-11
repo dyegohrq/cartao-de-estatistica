@@ -158,3 +158,10 @@ img {
     margin-top: 27px;
    }
 }
+
+@media screen and (min-width: 345px ) {
+    main {
+        width: 500;
+        height: 800;
+    }
+}
