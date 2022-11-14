@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    main {
+        width: 91vw;
+        height: 300px;
+    }
+
+    .hero-image {
+        float: right;
+        display: block;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .conteiner {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    main {
+        width: 83vw;
+        height: 400px;
+    }
+
+    .hero-image {
+        float: right;
+        display: block;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .conteiner {
+        float: left;
+        width: 50%;
+    }
+}
