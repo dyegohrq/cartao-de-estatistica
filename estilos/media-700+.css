@@ -23,13 +23,42 @@
     .conteiner {
         float: left;
         width: 50%;
+        padding: 40px 40px 0px 40px;
+    }
+
+    .hero-text {
+        font-size: .7em;
+        text-align: left;
+    }
+
+    .hero-text > h1 {
+        font-weight: 900;
+    }
+
+    .hero-text > p {
+        font-size: .9em;
+        text-align: left;
+        text-indent: 0;
+        margin: 20px 30px 15px 0px ;
+    }
+
+    .conteudo {
+        text-align: left;
+        
+    }
+
+    .dados {
+        display: inline-block;
+        text-align: left;
+        margin: 18px 30px 0px 0px;
+
     }
 }
 
 @media screen and (min-width: 900px) {
 
     main {
-        width: 83vw;
+        width: 69vw;
         height: 400px;
     }
 
@@ -50,5 +79,50 @@
     .conteiner {
         float: left;
         width: 50%;
+        padding: 57px;
+    }
+
+    .hero-text {
+        font-size: .8em;
+        text-align: left;
+    }
+
+    .hero-text > h1 {
+        font-weight: 900;
+        font-size: 2.1em;
+    }
+
+    .hero-text > p {
+        font-size: .9em;
+        text-align: left;
+        text-indent: 0;
+        margin: 20px 84px 15px 0px ;
+    }
+
+    .conteudo {
+        text-align: left;
+        
+    }
+
+    .dados {
+        display: inline-block;
+        text-align: left;
+        margin: 40px 53px 0px 0px ;
+
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    main {
+        width: 87vw;
+        height: 400px;
+    }
+
+    .hero-text > p {
+        margin: 20px 65px 15px 0px;
+    }
+
+    .dados {
+        margin: 40px 51px 0px 0px;
     }
 }
